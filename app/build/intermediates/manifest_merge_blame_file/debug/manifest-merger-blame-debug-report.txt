@@ -1,0 +1,106 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.show"
+4    android:versionCode="1"
+5    android:versionName="1.0.3" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="14"
+8-->/Users/lhancediocares/Documents/android project/Show1/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="27" />
+9-->/Users/lhancediocares/Documents/android project/Show1/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+11-->/Users/lhancediocares/Documents/android project/Show1/app/src/main/AndroidManifest.xml:7:5-75
+11-->/Users/lhancediocares/Documents/android project/Show1/app/src/main/AndroidManifest.xml:7:22-72
+12    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+12-->/Users/lhancediocares/Documents/android project/Show1/app/src/main/AndroidManifest.xml:8:5-78
+12-->/Users/lhancediocares/Documents/android project/Show1/app/src/main/AndroidManifest.xml:8:22-75
+13    <uses-permission android:name="android.permission.CALL_PHONE" />
+13-->/Users/lhancediocares/Documents/android project/Show1/app/src/main/AndroidManifest.xml:9:5-69
+13-->/Users/lhancediocares/Documents/android project/Show1/app/src/main/AndroidManifest.xml:9:22-66
+14    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+14-->/Users/lhancediocares/Documents/android project/Show1/app/src/main/AndroidManifest.xml:10:5-71
+14-->/Users/lhancediocares/Documents/android project/Show1/app/src/main/AndroidManifest.xml:10:22-69
+15
+16    <!-- <uses-permission android:name="android.permission.INTERNAL_SYSTEM_WINDOW" /> -->
+17    <application
+17-->/Users/lhancediocares/Documents/android project/Show1/app/src/main/AndroidManifest.xml:13:5-52:19
+18        android:allowBackup="true"
+18-->/Users/lhancediocares/Documents/android project/Show1/app/src/main/AndroidManifest.xml:14:9-35
+19        android:debuggable="true"
+20        android:icon="@drawable/ic_launcher"
+20-->/Users/lhancediocares/Documents/android project/Show1/app/src/main/AndroidManifest.xml:15:9-45
+21        android:label="@string/app_name"
+21-->/Users/lhancediocares/Documents/android project/Show1/app/src/main/AndroidManifest.xml:16:9-41
+22        android:testOnly="true"
+23        android:theme="@style/AppTheme" >
+23-->/Users/lhancediocares/Documents/android project/Show1/app/src/main/AndroidManifest.xml:17:9-40
+24        <activity
+24-->/Users/lhancediocares/Documents/android project/Show1/app/src/main/AndroidManifest.xml:18:9-27:20
+25            android:name="com.example.show.MainActivity"
+25-->/Users/lhancediocares/Documents/android project/Show1/app/src/main/AndroidManifest.xml:19:13-57
+26            android:label="@string/app_name"
+26-->/Users/lhancediocares/Documents/android project/Show1/app/src/main/AndroidManifest.xml:22:13-45
+27            android:screenOrientation="landscape"
+27-->/Users/lhancediocares/Documents/android project/Show1/app/src/main/AndroidManifest.xml:21:13-50
+28            android:windowSoftInputMode="adjustUnspecified|stateHidden" >
+28-->/Users/lhancediocares/Documents/android project/Show1/app/src/main/AndroidManifest.xml:20:13-72
+29            <intent-filter>
+29-->/Users/lhancediocares/Documents/android project/Show1/app/src/main/AndroidManifest.xml:23:13-26:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->/Users/lhancediocares/Documents/android project/Show1/app/src/main/AndroidManifest.xml:24:17-69
+30-->/Users/lhancediocares/Documents/android project/Show1/app/src/main/AndroidManifest.xml:24:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->/Users/lhancediocares/Documents/android project/Show1/app/src/main/AndroidManifest.xml:25:17-77
+32-->/Users/lhancediocares/Documents/android project/Show1/app/src/main/AndroidManifest.xml:25:27-74
+33            </intent-filter>
+34        </activity>
+35        <activity
+35-->/Users/lhancediocares/Documents/android project/Show1/app/src/main/AndroidManifest.xml:28:9-32:20
+36            android:name="com.example.show.ShowActivity"
+36-->/Users/lhancediocares/Documents/android project/Show1/app/src/main/AndroidManifest.xml:29:13-57
+37            android:label="@string/app_name"
+37-->/Users/lhancediocares/Documents/android project/Show1/app/src/main/AndroidManifest.xml:30:13-45
+38            android:screenOrientation="landscape" >
+38-->/Users/lhancediocares/Documents/android project/Show1/app/src/main/AndroidManifest.xml:31:13-50
+39        </activity>
+40        <activity
+40-->/Users/lhancediocares/Documents/android project/Show1/app/src/main/AndroidManifest.xml:34:9-45:20
+41            android:name="com.example.show.IncomingActivity"
+41-->/Users/lhancediocares/Documents/android project/Show1/app/src/main/AndroidManifest.xml:35:13-61
+42            android:label="@string/app_name"
+42-->/Users/lhancediocares/Documents/android project/Show1/app/src/main/AndroidManifest.xml:36:13-45
+43            android:screenOrientation="landscape" >
+43-->/Users/lhancediocares/Documents/android project/Show1/app/src/main/AndroidManifest.xml:37:13-50
+44            <intent-filter>
+44-->/Users/lhancediocares/Documents/android project/Show1/app/src/main/AndroidManifest.xml:38:13-44:29
+45                <action android:name="android.intent.action.ANSWER" />
+45-->/Users/lhancediocares/Documents/android project/Show1/app/src/main/AndroidManifest.xml:39:17-71
+45-->/Users/lhancediocares/Documents/android project/Show1/app/src/main/AndroidManifest.xml:39:25-68
+46
+47                <category android:name="android.intent.category.DEFAULT" />
+47-->/Users/lhancediocares/Documents/android project/Show1/app/src/main/AndroidManifest.xml:41:17-76
+47-->/Users/lhancediocares/Documents/android project/Show1/app/src/main/AndroidManifest.xml:41:27-73
+48
+49                <action android:name="android.intent.action.PHONE_STATE" />
+49-->/Users/lhancediocares/Documents/android project/Show1/app/src/main/AndroidManifest.xml:43:17-76
+49-->/Users/lhancediocares/Documents/android project/Show1/app/src/main/AndroidManifest.xml:43:25-73
+50            </intent-filter>
+51        </activity>
+52
+53        <receiver android:name="com.example.show.receiver.MyPhoneBroadcastReceiver" >
+53-->/Users/lhancediocares/Documents/android project/Show1/app/src/main/AndroidManifest.xml:47:9-51:20
+53-->/Users/lhancediocares/Documents/android project/Show1/app/src/main/AndroidManifest.xml:47:19-84
+54            <intent-filter android:priority="1000" >
+54-->/Users/lhancediocares/Documents/android project/Show1/app/src/main/AndroidManifest.xml:48:13-50:29
+54-->/Users/lhancediocares/Documents/android project/Show1/app/src/main/AndroidManifest.xml:48:28-51
+55                <action android:name="android.intent.action.PHONE_STATE" />
+55-->/Users/lhancediocares/Documents/android project/Show1/app/src/main/AndroidManifest.xml:43:17-76
+55-->/Users/lhancediocares/Documents/android project/Show1/app/src/main/AndroidManifest.xml:43:25-73
+56            </intent-filter>
+57        </receiver>
+58    </application>
+59
+60</manifest>

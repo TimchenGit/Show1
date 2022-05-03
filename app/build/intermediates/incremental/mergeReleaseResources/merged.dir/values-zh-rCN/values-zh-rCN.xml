@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">卡卡湾CAGAYAN</string>
+    <string name="hello_world">你好，世界！</string>
+    <string name="incoming_string">谢谢来电，祝君盈利多多！</string>
+    <string name="login">进入</string>
+    <string name="more_settings">更多设置</string>
+    <string name="phone_number">本机号码:</string>
+    <string name="phone_number_hint">请填入本机号码</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="table_number">滚动信息:</string>
+    <string name="table_number_hint">请填入滚动信息</string>
+    <string name="telephone">+01234567890</string>
+    <string name="time_and_date">时间</string>
+    <string name="welcome_string">欢迎光临卡卡湾娱乐场8号台，祝君好运！</string>
+    <string name="welcome_string_append">号台，祝君好运！</string>
+    <string name="welcome_string_prefix">欢迎光临卡卡湾娱乐场 </string>
+</resources>

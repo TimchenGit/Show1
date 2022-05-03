@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/lhancediocares/Documents/android project/Show1/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-mdpi-v4/values-mdpi-v4.xml",
+            "map": [
+                {
+                    "source": "/Users/lhancediocares/Documents/android project/Show1/app/src/main/res/values-mdpi/dimens.xml",
+                    "from": {
+                        "startLines": "3,9,10,11,12,4,13,14,5,6,15,7,16,8,2",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "92,326,367,408,449,131,490,531,170,209,572,248,613,287,55",
+                        "endColumns": "38,40,40,40,40,38,40,40,38,38,40,38,40,38,36",
+                        "endOffsets": "126,362,403,444,485,165,526,567,204,243,608,282,649,321,87"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,94,135,176,217,258,297,338,379,418,457,498,537,578,617",
+                        "endColumns": "38,40,40,40,40,38,40,40,38,38,40,38,40,38,36",
+                        "endOffsets": "89,130,171,212,253,292,333,374,413,452,493,532,573,612,649"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/lhancediocares/Documents/android project/Show1/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "/Users/lhancediocares/Documents/android project/Show1/app/src/main/res/values-hdpi/dimens.xml",
+                    "from": {
+                        "startLines": "3,9,10,11,12,4,13,14,5,6,15,7,16,8,2",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "93,327,368,409,450,132,491,532,171,210,573,249,614,288,55",
+                        "endColumns": "38,40,40,40,40,38,40,40,38,38,40,38,40,38,37",
+                        "endOffsets": "127,363,404,445,486,166,527,568,205,244,609,283,650,322,88"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,94,135,176,217,258,297,338,379,418,457,498,537,578,617",
+                        "endColumns": "38,40,40,40,40,38,40,40,38,38,40,38,40,38,37",
+                        "endOffsets": "89,130,171,212,253,292,333,374,413,452,493,532,573,612,650"
+                    }
+                }
+            ]
+        }
+    ]
+}

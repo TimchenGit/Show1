@@ -1,0 +1,4 @@
+#Tue May 03 14:52:12 PST 2022
+base.0=/Users/lhancediocares/Documents/android project/Show1/app/build/intermediates/dex/release/mergeDexRelease/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

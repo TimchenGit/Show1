@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eff2f6"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="0.8" >
+
+        <ImageView
+            android:id="@+id/show_view_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ab_logo" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1" >
+
+        <RelativeLayout
+            android:id="@+id/rl_table"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px54"
+            android:layout_marginLeft="@dimen/px28"
+            android:layout_marginRight="@dimen/px28"
+            android:background="#fff" >
+
+            <TextView
+                android:id="@+id/table_hint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/px10"
+                android:singleLine="true"
+                android:text="@string/table_number"
+                android:textColor="#000"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/table_number"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/table_hint"
+                android:background="@null"
+                android:paddingLeft="@dimen/px20"
+                android:paddingRight="@dimen/px10"
+                android:singleLine="true"
+                android:hint="@string/table_number_hint"
+                android:textColor="#000"
+                android:textSize="18sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_phone"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px54"
+            android:layout_below="@id/rl_table"
+            android:layout_marginLeft="@dimen/px28"
+            android:layout_marginRight="@dimen/px28"
+            android:layout_marginTop="@dimen/px10"
+            android:background="#fff" >
+
+            <TextView
+                android:id="@+id/phone_hint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/px10"
+                android:singleLine="true"
+                android:text="@string/phone_number"
+                android:textColor="#000"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/phone_number"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/phone_hint"
+                android:background="@null"
+                android:paddingLeft="@dimen/px20"
+                android:paddingRight="@dimen/px10"
+                android:singleLine="true"
+                android:hint="@string/phone_number_hint"
+                android:textColor="#000"
+                android:textSize="18sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_set"
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:layout_below="@id/rl_phone"
+            android:layout_marginLeft="@dimen/px28"
+            android:layout_marginRight="@dimen/px28"
+            android:layout_marginTop="@dimen/px10"
+            android:visibility="invisible">
+
+            <TextView
+                android:id="@+id/more_set"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/px10"
+                android:singleLine="true"
+                android:text="@string/more_settings"
+                android:textColor="@color/blue"
+                android:textSize="18sp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rl_set"
+            android:layout_marginLeft="@dimen/px30"
+            android:layout_marginRight="@dimen/px30"
+            android:layout_marginTop="@dimen/px20"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/login"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_login_bg"
+                android:gravity="center"
+                android:paddingBottom="@dimen/px7"
+                android:paddingTop="@dimen/px7"
+                android:text="@string/login"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

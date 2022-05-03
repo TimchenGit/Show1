@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="px10">20.00px</dimen>
+    <dimen name="px100">200.00px</dimen>
+    <dimen name="px105">210.00px</dimen>
+    <dimen name="px129">258.00px</dimen>
+    <dimen name="px160">320.00px</dimen>
+    <dimen name="px20">40.00px</dimen>
+    <dimen name="px210">420.00px</dimen>
+    <dimen name="px257">514.00px</dimen>
+    <dimen name="px28">56.00px</dimen>
+    <dimen name="px30">60.00px</dimen>
+    <dimen name="px389">778.00px</dimen>
+    <dimen name="px40">80.00px</dimen>
+    <dimen name="px469">938.00px</dimen>
+    <dimen name="px54">108.00px</dimen>
+    <dimen name="px7">14.00px</dimen>
+</resources>

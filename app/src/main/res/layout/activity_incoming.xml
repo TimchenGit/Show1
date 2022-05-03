@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical" 
+    android:paddingTop="@dimen/px20"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/px20"
+        android:paddingRight="@dimen/px20" >
+
+        <ImageView
+            android:id="@+id/show_view_logo_incoming"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/px20"
+            android:src="@drawable/ab_logo" />
+
+        <com.example.show.views.MarqueeTextRun
+            android:id="@+id/welcome_string_incoming"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/px40"
+            android:layout_toRightOf="@id/show_view_logo_incoming"
+            android:ellipsize="marquee"
+            android:singleLine="true"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:textColor="@color/red"
+            android:textSize="@dimen/px160" >
+        </com.example.show.views.MarqueeTextRun>
+    </RelativeLayout>
+    
+	<!-- 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" >
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/time_and_date"
+            android:textColor="@color/red"
+            android:textSize="76dp" />
+            
+    </RelativeLayout>
+ 	-->
+ 	
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/px20"
+        android:paddingRight="@dimen/px20" >
+
+        <TextView
+            android:id="@+id/telephone_incoming"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/telephone"
+            android:textColor="@color/yellow"
+            android:textSize="@dimen/px105" />
+<!--        210sp-->
+    </RelativeLayout>
+
+</LinearLayout>

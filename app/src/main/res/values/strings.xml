@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">卡卡湾CAGAYAN</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="time_and_date">Time</string>
+    <string name="telephone">+012345678900</string>
+    <string name="welcome_string">欢迎光临云顶国际度假村8号台，祝君好运！</string>
+    <string name="welcome_string_prefix">欢迎光临云顶国际度假村&#160;</string>
+    <string name="welcome_string_append">号台，祝君好运！</string>
+    <string name="incoming_string">谢谢来电，祝君盈利多多！</string>
+    <string name="table_number">Scroll Information:</string>
+    <string name="table_number_hint">please input scrolling information</string>
+    <string name="phone_number">Phone Number:</string>
+    <string name="phone_number_hint">please input phone number</string>
+    <string name="more_settings">More settings</string>
+    <string name="login">Enter</string>
+
+</resources>
